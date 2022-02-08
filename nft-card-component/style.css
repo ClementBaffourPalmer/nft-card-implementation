@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+background-color: hsl(217, 54%, 11%);
+width: 100%;
+height: 100vh;
+color: white;
+display: flex;
+align-items: center;
+font-family: "Outfit", sans-serif;
+
+}
+
+.entire-card {
+background-color: hsl(216, 50%, 16%);
+border-radius: 15px;
+width: 300px;
+padding: 1.5rem;
+margin: auto;
+
+}
+
+.img {
+position: relative;
+}
+
+.main-img {
+width: 100%;
+height: 100%;
+height: auto;
+border-radius: 10px;
+}
+
+.content {
+font-weight: 300;
+line-height: 28px;
+margin: 0.6rem 0.1rem 0;
+color: hsl(215, 51%, 70%);
+font-family: "Outfit", sans-serif;
+}
+
+.content p {
+margin-bottom: 2.5rem;
+margin-top: 1.5rem;
+font-size: 16px;
+font-family: "Outfit", sans-serif;
+}
+
+.h3 {
+margin-top: 3.5rem;
+margin-bottom: 3px;
+font-size: 20px;
+font-weight: 600;
+font-family: "Outfit",sans-serif;
+}
+
+.creator {
+display: flex;
+align-items: center;
+flex-direction: row-reverse;
+margin-top: -6rem;
+font-size: 15px;
+color: hsl(215, 51%, 70%);
+margin-right: 10rem;
+font-family: "Outfit",sans-serif;
+}
+
+.creator p {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.creator span {
+color: #ffffff;
+margin-top: -9rem;
+margin-bottom: -15rem;
+margin-right: -10.9rem;
+font-family: "Outfit",sans-serif;
+}
+
+.creator p {
+color:rgb(139, 172, 218);
+margin-left: 8px;
+margin-bottom: -6rem;
+margin-right: 3.5rem;
+}
+
+.avatar {
+border: 1px solid white;
+border-radius: 30px;
+margin-bottom: -6rem;
+margin-right: 7rem;
+margin-left: -11.5rem;
+width: 30px;
+}
+
+.price-days {
+display: flex;
+justify-content: space-between;
+padding-bottom: 1rem;
+margin-bottom: -3rem;
+margin-top: 1px;
+border-top: 1px solid hsl(233, 73%, 75%);
+}
+
+
+.price img {
+margin-left: 3px;
+margin-bottom: 30.8px;
+margin-top: -8.5rem;
+}
+
+.price p {
+color: hsl(178, 100%, 50%);
+font-weight: 600;
+margin-top: -3.5rem;
+margin-left: 1rem;
+margin-bottom: -12rem;
+}
+
+.days {
+display: flex;
+align-items: center;
+color: hsl(215, 51%, 70%);
+font-size: 14px;
+margin-right: -20rem;
+margin-bottom: 5rem;
+margin-left: -3rem;
+margin-top: -2.4rem;    
+}
+
+.main-img, h3.span {
+cursor: pointer;
+}
+
+.h3:hover , span:hover {
+color:hsl(215, 51%, 70%);
+}
+
+.days p {
+color: hsl(215, 51%, 70%);
+margin: 3px;
+}
+
